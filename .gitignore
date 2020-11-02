@@ -1,0 +1,9 @@
+.vscode
+.aws-sam
+node_modules
+*.csv
+dist/
+packaged-dev.yaml
+data/
+coverage/
+*.zip

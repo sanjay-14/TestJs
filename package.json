@@ -1,0 +1,30 @@
+{
+  "name": "testjs",
+  "version": "1.0.0",
+  "description": "tesing code climate integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "cross-env NODE_ENV=dev concurrently \"webpack --watch --progress\"",
+    "build": "npm run clean && mkdirp dist && npm run compile",
+    "compile": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjay-14/TestJs.git"
+  },
+  "author": "sanjay kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjay-14/TestJs/issues"
+  },
+  "homepage": "https://github.com/sanjay-14/TestJs#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "webpack": "^5.3.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.1.0"
+  }
+}
