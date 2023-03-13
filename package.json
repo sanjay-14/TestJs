@@ -25,7 +25,7 @@
   "dependencies": {
     "concurrently": "^5.3.0",
     "cross-env": "^7.0.2",
-    "webpack": "^5.3.2"
+    "webpack": "^5.76.0"
   },
   "devDependencies": {
     "@types/jest": "^26.0.4",
