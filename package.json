@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/sanjay-14/TestJs#readme",
   "dependencies": {
-    "concurrently": "^5.3.0",
+    "concurrently": "^6.2.2",
     "cross-env": "^7.0.2",
     "webpack": "^5.3.2"
   },
